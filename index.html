@@ -1,120 +1,162 @@
+<!-- Archivo: index.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Presentación Profesional</title>
-  <style>
-    /* Reset básico */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    /* Activar scroll suave */
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-    /* Estilo del menú flotante */
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: #333;
-      color: #fff;
-      padding: 10px 0;
-      z-index: 1000;
-    }
-    nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-    nav ul li {
-      margin: 0 20px;
-    }
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    /* Estilos para las secciones */
-    section {
-      min-height: 100vh;
-      padding: 100px 20px 20px; /* 100px de padding superior para que no se tape el menú */
-    }
-    #presentacion {
-      background: #f4f4f4;
-    }
-    #proyectos-locos {
-      background: #e2e2e2;
-    }
-    #contacto {
-      background: #d0d0d0;
-    }
-    /* Ejemplo de estilos para títulos y párrafos */
-    h1 {
-      margin-bottom: 20px;
-      text-align: center;
-    }
-    p, li {
-      font-size: 1.1em;
-      max-width: 800px;
-      margin: auto;
-      margin-bottom: 15px;
-    }
-    ul {
-      max-width: 800px;
-      margin: auto;
-      list-style-type: disc;
-      padding-left: 40px;
-    }
-  </style>
+  <title>Inicio - Mi Web</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Menú flotante -->
+  <!-- Menú de navegación -->
   <nav>
     <ul>
-      <li><a href="#presentacion">Presentación</a></li>
-      <li><a href="#proyectos-locos">Proyectos Locos 😈</a></li>
-      <li><a href="#contacto">Contacto</a></li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proyectos.html">Proyectos Locos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
     </ul>
   </nav>
 
-  <!-- Sección: Presentación -->
-  <section id="presentacion">
-    <h1>Hola, soy [Tu Nombre]</h1>
-    <p>
-      Soy [Tu profesión o especialidad], con estudios en [Tu campo de estudio]. Me apasiona [tus gustos o hobbies] y me encanta enfrentar nuevos desafíos. En esta página podrás conocer un poco más sobre mí, mis ideas y cómo puedes contactarme.
-    </p>
+  <!-- Contenido principal -->
+  <header class="hero">
+    <h1>Bienvenido a mi web</h1>
+    <p>Explora mis proyectos, ideas y formas de contactarme.</p>
+  </header>
+
+  <section class="intro">
+    <h2>Sobre mí</h2>
+    <p>Soy [Tu nombre], un apasionado de [tu profesión/intereses]. Aquí puedes descubrir más sobre mi trabajo y mi visión.</p>
   </section>
 
-  <!-- Sección: Proyectos Locos 😈 -->
-  <section id="proyectos-locos">
-    <h1>Proyectos Locos 😈</h1>
-    <p>
-      Aquí comparto algunas ideas innovadoras y poco convencionales que se me han ocurrido. Aunque pueden sonar descabelladas o poco éticas, ¡a veces de lo inesperado nacen las mejores soluciones!
-    </p>
+  <footer>
+    <p>&copy; 2025 Mi Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+<!-- Archivo: proyectos.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyectos Locos - Mi Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav>
     <ul>
-      <li><strong>Proyecto 1:</strong> [Descripción breve de la idea loca].</li>
-      <li><strong>Proyecto 2:</strong> [Otra propuesta innovadora].</li>
-      <li><strong>Proyecto 3:</strong> [Una tercera idea que desafía lo convencional].</li>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proyectos.html">Proyectos Locos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <section class="projects">
+    <h1>Proyectos Locos 😈</h1>
+    <ul>
+      <li><strong>Proyecto 1:</strong> Una idea innovadora para [descripción breve].</li>
+      <li><strong>Proyecto 2:</strong> Otra propuesta creativa para [descripción breve].</li>
+      <li><strong>Proyecto 3:</strong> Un concepto fuera de lo común para [descripción breve].</li>
     </ul>
   </section>
 
-  <!-- Sección: Contacto y CV -->
-  <section id="contacto">
-    <h1>Contacto</h1>
-    <p>
-      Descarga mi CV haciendo clic <a href="ruta/a/tu_cv.pdf" download> aquí</a>.
-    </p>
-    <p>Teléfono: [Tu número de contacto]</p>
-    <p>Email: [Tu correo electrónico]</p>
-  </section>
+  <footer>
+    <p>&copy; 2025 Mi Web. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
+
+<!-- Archivo: contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Mi Web</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Menú de navegación -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="proyectos.html">Proyectos Locos</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <section class="contact">
+    <h1>Contacto</h1>
+    <p>Puedes contactarme a través de:</p>
+    <ul>
+      <li>Teléfono: [Tu número de contacto]</li>
+      <li>Email: <a href="mailto:[tu_email]">[tu_email]</a></li>
+      <li>Descarga mi CV: <a href="ruta/a/tu_cv.pdf" download>Aquí</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Mi Web. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+/* Archivo: styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header.hero {
+  background: #555;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
