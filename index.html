@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Presentación Profesional</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* Activar scroll suave */
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+    /* Estilo del menú flotante */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 20px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    /* Estilos para las secciones */
+    section {
+      min-height: 100vh;
+      padding: 100px 20px 20px; /* 100px de padding superior para que no se tape el menú */
+    }
+    #presentacion {
+      background: #f4f4f4;
+    }
+    #proyectos-locos {
+      background: #e2e2e2;
+    }
+    #contacto {
+      background: #d0d0d0;
+    }
+    /* Ejemplo de estilos para títulos y párrafos */
+    h1 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    p, li {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: auto;
+      margin-bottom: 15px;
+    }
+    ul {
+      max-width: 800px;
+      margin: auto;
+      list-style-type: disc;
+      padding-left: 40px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Menú flotante -->
+  <nav>
+    <ul>
+      <li><a href="#presentacion">Presentación</a></li>
+      <li><a href="#proyectos-locos">Proyectos Locos 😈</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección: Presentación -->
+  <section id="presentacion">
+    <h1>Hola, soy [Tu Nombre]</h1>
+    <p>
+      Soy [Tu profesión o especialidad], con estudios en [Tu campo de estudio]. Me apasiona [tus gustos o hobbies] y me encanta enfrentar nuevos desafíos. En esta página podrás conocer un poco más sobre mí, mis ideas y cómo puedes contactarme.
+    </p>
+  </section>
+
+  <!-- Sección: Proyectos Locos 😈 -->
+  <section id="proyectos-locos">
+    <h1>Proyectos Locos 😈</h1>
+    <p>
+      Aquí comparto algunas ideas innovadoras y poco convencionales que se me han ocurrido. Aunque pueden sonar descabelladas o poco éticas, ¡a veces de lo inesperado nacen las mejores soluciones!
+    </p>
+    <ul>
+      <li><strong>Proyecto 1:</strong> [Descripción breve de la idea loca].</li>
+      <li><strong>Proyecto 2:</strong> [Otra propuesta innovadora].</li>
+      <li><strong>Proyecto 3:</strong> [Una tercera idea que desafía lo convencional].</li>
+    </ul>
+  </section>
+
+  <!-- Sección: Contacto y CV -->
+  <section id="contacto">
+    <h1>Contacto</h1>
+    <p>
+      Descarga mi CV haciendo clic <a href="ruta/a/tu_cv.pdf" download> aquí</a>.
+    </p>
+    <p>Teléfono: [Tu número de contacto]</p>
+    <p>Email: [Tu correo electrónico]</p>
+  </section>
+</body>
+</html>
